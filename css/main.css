@@ -11,6 +11,16 @@ body {
   font-family: 'Roboto Slab', serif;
   color: #333333;
   padding-top: 0px;
+  background: #efefef;
+
+  /*
+  background: url('../img/grass-bg.jpg') no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+  */
+
 }
 
 h1 {
@@ -55,25 +65,10 @@ h2 {
 }
 
 header {
+
     background: url('../img/wood3.jpg') repeat;
     padding-top: 25px;
     border-top: 10px solid #488BF4;
-}
-
-body {
-
-  background: #fff;
-  /*
-  background: url('../img/grass-bg.jpg') no-repeat center center fixed;
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       -o-background-size: cover;
-       background-size: cover;
-  */
-
-
-
-
 
 }
 
@@ -117,7 +112,7 @@ body {
   width: 180px;
   height: auto;
   cursor: pointer;
-  opacity: 0.75;
+  opacity: 0.65;
 }
 
 .character-image img:hover {
@@ -126,6 +121,11 @@ body {
   position: relative;
   top: -10px;
 
+}
+
+.selectCharacter {
+  background: #263238;
+  padding: 30px;
 }
 
 .selected {
@@ -138,4 +138,13 @@ body {
 
 .soundPlayer {
      visibility: hidden
+}
+
+.button-group {
+  margin-top: 40px;
+}
+
+.btn {
+  margin-bottom: 20px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }

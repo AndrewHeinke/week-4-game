@@ -51,6 +51,7 @@ $(document).ready(function() {
         charSelected = true;
         $('.chosenChar').append(this);
         myChar = characters.king;
+        $('#chosen').html(myChar.name);
         console.log(myChar);
         $('#instructions').html("Now choose your opponent!");
       }
@@ -58,6 +59,7 @@ $(document).ready(function() {
         opponentSelected = true;
         $('#opponent').append(this);
         opponentChar = characters.king;
+        $('#opp').html(opponentChar.name);
         console.log(opponentChar);
         $('#instructions').html("Press attack to begin combat!");
       }
@@ -71,6 +73,7 @@ $(document).ready(function() {
         charSelected = true;
         $('.chosenChar').append(this);
         myChar = characters.hogRider;
+        $('#chosen').html(myChar.name);
         console.log(myChar);
         $('#instructions').html("Now choose your opponent!");
       }
@@ -78,6 +81,7 @@ $(document).ready(function() {
         opponentSelected = true;
         $('#opponent').append(this);
         opponentChar = characters.hogRider;
+        $('#opp').html(opponentChar.name);
         console.log(opponentChar);
         $('#instructions').html("Press attack to begin combat!");
       }
@@ -91,6 +95,7 @@ $(document).ready(function() {
         charSelected = true;
         $('.chosenChar').append(this);
         myChar = characters.prince;
+        $('#chosen').html(myChar.name);
         console.log(myChar);
         $('#instructions').html("Now choose your opponent!");
       }
@@ -98,6 +103,7 @@ $(document).ready(function() {
         opponentSelected = true;
         $('#opponent').append(this);
         opponentChar = characters.prince;
+        $('#opp').html(opponentChar.name);
         console.log(opponentChar);
         $('#instructions').html("Press attack to begin combat!");
       }
@@ -111,6 +117,7 @@ $(document).ready(function() {
         charSelected = true;
         $('.chosenChar').append(this);
         myChar = characters.barbarian;
+        $('#chosen').html(myChar.name);
         console.log(myChar);
         $('#instructions').html("Now choose your opponent!");
       }
@@ -118,6 +125,7 @@ $(document).ready(function() {
         opponentSelected = true;
         $('#opponent').append(this);
         opponentChar = characters.barbarian;
+        $('#opp').html(opponentChar.name);
         console.log(opponentChar);
         $('#instructions').html("Press attack to begin combat!");
       }
