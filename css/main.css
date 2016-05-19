@@ -77,14 +77,14 @@ body {
 
 }
 
-
-
-
 .selected {
   background: #2ecc71;
 }
 
-
 .opponent {
   background: #e74c3c;
+}
+
+.soundPlayer {
+     visibility: hidden
 }
