@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Clash Royale RPG | Andrew Heinke</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    </head>
+    <body>
+
+    <!-- Main area content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Clash Royale RPG</h1>
+        </div>
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body"><h2>Instructions: </h2><span id="instructions">Select your character!</span></div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row character-image selectCharacter">
+        <div class="col-md-3 col-xs-6 king"></div>
+        <div class="col-md-3 col-xs-6 hogRider"></div>
+        <div class="col-md-3 col-xs-6 prince"></div>
+        <div class="col-md-3 col-xs-6 barbarian"></div>
+      </div>
+
+      <div class="row">
+        <div class = "col-md-3 col-md-offset-2" id="chosen">
+          <h2>Your Character</h2>
+          <div class="row chosenChar"></div>
+        </div>
+        <div class = "col-md-2" id="attack">
+          <h2>Vs</h2>
+          <div class="btn btn-default btn-lg" id="attackButton">Attack!</div>
+          <div class="btn btn-default btn-lg" id="resetButton">Restart Game</div>
+        </div>
+        <div class = "col-md-3" id="opponent">
+          <h2>Opponent</h2>
+          <div class="row opponent"></div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+
+    </div>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

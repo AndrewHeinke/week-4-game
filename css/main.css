@@ -1,0 +1,90 @@
+/* =================================================================================================
+   Andrew Heinke's custom styles
+===================================================================================================== */
+@font-face {
+    font-family: "Clash";
+    src: url('../fonts/Supercell-magic-webfont.ttf') format("truetype");
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+  font-family: 'Roboto Slab', serif;
+  color: #333333;
+}
+
+h1 {
+  font-family: Clash, Arial, 'sans-serf';
+  color: #fff;
+  font-size: 50px;
+  text-shadow: 0 1px 0 hsl(174, 5%, 80%),
+               0 2px 0 hsl(174, 5%, 75%),
+               0 3px 0 hsl(174, 5%, 70%),
+               0 4px 0 hsl(174, 5%, 66%),
+               0 5px 0 hsl(174, 5%, 64%),
+               0 6px 0 hsl(174, 5%, 62%),
+               0 7px 0 hsl(174, 5%, 61%),
+               0 8px 0 hsl(174, 5%, 60%),
+               0 0 5px rgba(0, 0, 0, .05),
+               0 1px 3px rgba(0, 0, 0, .2),
+               0 3px 5px rgba(0, 0, 0, .2),
+               0 5px 10px rgba(0, 0, 0, .2),
+               0 10px 10px rgba(0, 0, 0, .2),
+               0 20px 20px rgba(0, 0, 0, .3);
+  text-align: center;
+  margin-top: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+body {
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#attackButton {
+  color: #FFF;
+  background: #e74c3c;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.panel {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+.character-image img {
+  margin: 0 auto;
+  text-align: center;
+  width: 180px;
+  height: auto;
+  cursor: pointer;
+}
+
+.character-image img:hover {
+  position: relative;
+  top: -20px;
+
+}
+
+
+
+
+.selected {
+  background: #2ecc71;
+}
+
+
+.opponent {
+  background: #e74c3c;
+}
