@@ -5,7 +5,11 @@
     font-family: "Clash";
     src: url('../fonts/Supercell-magic-webfont.ttf') format("truetype");
 }
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url('../fonts/RobotoSlab-Regular.ttf') format("truetype");
+}
 
 html {
   position: relative;
@@ -31,6 +35,7 @@ body {
 
 .footer {
   position: absolute;
+  font-family: 'Roboto Slab', serif;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -45,11 +50,11 @@ body {
 h1 {
   font-family: Clash, Arial, 'sans-serf';
   color: #fff;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 h1.game-title {
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 0 1px 0 hsl(174, 5%, 80%),
                0 2px 0 hsl(174, 5%, 75%),
                0 3px 0 hsl(174, 5%, 70%),
@@ -118,12 +123,15 @@ header {
   text-shadow: 0px 2px 1px rgba(0,0,0,.15);
 }
 
-.panel {
+.instruct {
   text-align: center;
   margin-top: 25px;
   border-radius: 0px;
   margin-bottom: 0px;
   background: #fff;
+  padding: 15px;
+  border-bottom: #cccccc 1px solid;
+  width: 100%;
 }
 
 .row {
