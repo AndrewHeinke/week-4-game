@@ -64,7 +64,7 @@ $(document).ready(function() {
         $('#instructions').html("Press attack to begin combat!");
       }
       else {
-        alert("You must defeat the current opponent before you can select another!");
+        swal("Oops!", "You must defeat the current opponent before you can select another!", "error");
       }
     });
 
@@ -86,7 +86,7 @@ $(document).ready(function() {
         $('#instructions').html("Press attack to begin combat!");
       }
       else {
-        alert("You must defeat the current opponent before you can select another!");
+        swal("Oops!", "You must defeat the current opponent before you can select another!", "error");
       }
     });
 
@@ -108,7 +108,7 @@ $(document).ready(function() {
         $('#instructions').html("Press attack to begin combat!");
       }
       else {
-        alert("You must defeat the current opponent before you can select another!");
+        swal("Oops!", "You must defeat the current opponent before you can select another!", "error");
       }
     });
 
@@ -130,7 +130,7 @@ $(document).ready(function() {
         $('#instructions').html("Press attack to begin combat!");
       }
       else {
-        alert("You must defeat the current opponent before you can select another!");
+        swal("Oops!", "You must defeat the current opponent before you can select another!", "error");
       }
     });
 
