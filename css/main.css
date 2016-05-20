@@ -7,11 +7,17 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   color: #333333;
   padding-top: 0px;
   background: #efefef;
+  margin-bottom: 60px;
 
   /*
   background: url('../img/grass-bg.jpg') no-repeat center center fixed;
@@ -22,6 +28,17 @@ body {
   */
 
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
 
 h1 {
   font-family: Clash, Arial, 'sans-serf';
@@ -116,11 +133,20 @@ header {
 }
 
 .character-image img:hover {
-
   opacity: 1;
   position: relative;
   top: -10px;
+}
 
+/* Center character image inside chosen character and opponent divs */
+.chosenChar img {
+	display: block;
+	margin: 0 auto;
+}
+
+.chosenOpp img {
+	display: block;
+	margin: 0 auto;
 }
 
 .selectCharacter {

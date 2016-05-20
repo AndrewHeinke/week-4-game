@@ -57,7 +57,7 @@ $(document).ready(function() {
       }
       else if (charSelected === true && opponentSelected === false) {
         opponentSelected = true;
-        $('#opponent').append(this);
+        $('.chosenOpp').append(this);
         opponentChar = characters.king;
         $('#opp').html(opponentChar.name);
         console.log(opponentChar);
@@ -79,7 +79,7 @@ $(document).ready(function() {
       }
       else if (charSelected === true && opponentSelected === false) {
         opponentSelected = true;
-        $('#opponent').append(this);
+        $('.chosenOpp').append(this);
         opponentChar = characters.hogRider;
         $('#opp').html(opponentChar.name);
         console.log(opponentChar);
@@ -101,7 +101,7 @@ $(document).ready(function() {
       }
       else if (charSelected === true && opponentSelected === false) {
         opponentSelected = true;
-        $('#opponent').append(this);
+        $('.chosenOpp').append(this);
         opponentChar = characters.prince;
         $('#opp').html(opponentChar.name);
         console.log(opponentChar);
@@ -123,7 +123,7 @@ $(document).ready(function() {
       }
       else if (charSelected === true && opponentSelected === false) {
         opponentSelected = true;
-        $('#opponent').append(this);
+        $('.chosenOpp').append(this);
         opponentChar = characters.barbarian;
         $('#opp').html(opponentChar.name);
         console.log(opponentChar);

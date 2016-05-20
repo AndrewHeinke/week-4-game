@@ -32,7 +32,7 @@
   </header>
     <div class="container">
 
-  <!-- Battle Area -->
+    <!-- Battle Area -->
       <div class="row">
         <div class = "col-md-5">
           <h2 id="chosen">Your Character</h2>
@@ -47,20 +47,37 @@
           </div>
         <div class = "col-md-5" id="opponent">
           <h2 id="opp">Opponent</h2>
-          <div class="row opponent"></div>
+          <div class="row chosenOpp"></div>
         </div>
     </div>
   <!-- End Battle Area -->
 
+  </div>
 
     <!-- Row of Characters -->
         <div class="row character-image selectCharacter">
-          <div class="col-md-3 col-xs-6 king"></div>
-          <div class="col-md-3 col-xs-6 hogRider"></div>
-          <div class="col-md-3 col-xs-6 prince"></div>
-          <div class="col-md-3 col-xs-6 barbarian"></div>
+          <div class="container">
+            <div class="col-md-3">
+              <div class="king"></div>
+            </div>
+          <div class="col-md-3">
+            <div class="hogRider"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="prince"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="barbarian"></div>
+          </div>
         </div>
+      </div>
     <!-- End Row of Characters -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
 
   <!-- hidden sound player here for theme song -->
     <div class="text-center soundPlayer">
@@ -70,7 +87,7 @@
          </audio>
     </div>
 
-    </div>
+
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
