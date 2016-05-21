@@ -5,30 +5,30 @@ $(document).ready(function() {
  // Objects within an object containing the four characters of the game
   var characters = {
     king: {
-      health: 320,
-      attack: 10,
-      counterAttack: 7,
+      health: 150,
+      attack: 15,
+      counterAttack: 20,
       img: "img/king.png",
       name: "The King",
     },
     hogRider: {
-   	  health: 150,
-      attack: 40,
-      counterAttack: 20,
+   	  health: 170,
+      attack: 14,
+      counterAttack: 8,
       img: "img/hog-rider.png",
       name: "Hog Rider",
     },
     prince: {
-   	  health: 225,
-      attack: 35,
-      counterAttack: 25,
+   	  health: 200,
+      attack: 13,
+      counterAttack: 8,
       img: "img/prince.png",
       name: "Prince",
     },
     barbarian: {
-   	  health: 420,
-      attack: 30,
-      counterAttack: 15,
+   	  health: 190,
+      attack: 9,
+      counterAttack: 10,
       img: "img/barbarian.png",
       name: "Barbarian",
     }
@@ -173,6 +173,10 @@ $(document).ready(function() {
       swal({title: "DEAD!",   text: "You fought well but came up short. Try harder next time!",   type: "error", confirmButtonColor: "#2ecc71",   confirmButtonText: "Restart Game", closeOnConfirm: true }, function(){restartGame();});
     }
 
+    if (myChar.health <= 0) {
+      swal({title: "DEAD!",   text: "You fought well but came up short. Try harder next time!",   type: "error", confirmButtonColor: "#2ecc71",   confirmButtonText: "Restart Game", closeOnConfirm: true }, function(){restartGame();});
+    }
+
     //Alert when both characters kill each other at the same time
     if (myChar.health <= 0 && opponentChar.health <= 0) {
       swal({title: "DEAD!",   text: "Your character is dead but you killed your opponent too. Congrats, but you still lost!",   type: "error", confirmButtonColor: "#2ecc71",   confirmButtonText: "Restart Game",   closeOnConfirm: true }, function(){restartGame();});
@@ -182,7 +186,7 @@ $(document).ready(function() {
     //When player defeats enemy, reduce opponents left count by 1, removes character from the opponent div, alerts player to select another opponent
     if (opponentSelected === true && opponentChar.health <= 0){
       opponentsLeft--;
-      
+
       opponentSelected = false;
       $('.chosenOpp').empty();
       $('.opponent-health').empty();
