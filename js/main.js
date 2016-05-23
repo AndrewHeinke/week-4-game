@@ -13,7 +13,7 @@ $(document).ready(function() {
     },
     hogRider: {
    	  health: 170,
-      attack: 14,
+      attack: 18,
       counterAttack: 8,
       img: "img/hog-rider.png",
       name: "Hog Rider",
