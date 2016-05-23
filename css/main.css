@@ -1,6 +1,6 @@
 /* =================================================================================================
    Andrew Heinke's custom styles
-===================================================================================================== */
+======================================================================================================= */
 @font-face {
     font-family: "Clash";
     src: url('../fonts/Supercell-magic-webfont.ttf') format("truetype");
@@ -22,15 +22,6 @@ body {
   padding-top: 0px;
   background: #efefef;
   margin-bottom: 60px;
-
-  /*
-  background: url('../img/grass-bg.jpg') no-repeat center center fixed;
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       -o-background-size: cover;
-       background-size: cover;
-  */
-
 }
 
 .footer {
@@ -44,8 +35,6 @@ body {
   text-align: center;
   background-color: #efefef;
 }
-
-
 
 h1 {
   font-family: Clash, Arial, 'sans-serf';
